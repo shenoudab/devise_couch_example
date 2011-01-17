@@ -1,4 +1,6 @@
 DeviseCouchExample::Application.routes.draw do
+  get "account/index"
+
   devise_for :users
 
   # Sample of regular route:
